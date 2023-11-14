@@ -1,0 +1,81 @@
+/* LoginForm.css */
+
+.encadrer-formulaire {
+  border: 2px solid #ccc; /* Ajoute une bordure solide de couleur grise */
+  border-radius: 10px; /* Ajoute des coins arrondis */
+  padding: 20px; /* Ajoute un espace intérieur */
+  width: 300px; /* Ajustez la largeur selon vos besoins */
+  background-color: #fff; /* Ajoute une couleur de fond */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px; 
+    width: 300px; /* Ajustez la largeur selon vos besoins */
+    margin: 0 auto; /* Centre le formulaire horizontalement */
+    background-color: #fff; /* Ajoute une couleur de fond */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre légère */
+  }
+  
+  .center {
+    text-align: center;
+    margin-bottom: 10px; /* Ajoutez un espace entre les champs Email et Mot de passe */
+  }
+
+/* Ajoutez un style spécifique pour le bouton */
+button {
+  margin-top: 10px; /* Ajoute un espace au-dessus du bouton */
+  cursor: pointer; /* Ajoute un indicateur de curseur pour indiquer que le bouton est cliquable */
+  background-color: #14ad12; /* Couleur de fond bleue */
+  color: #fff; /* Couleur du texte blanc */
+  border: none; /* Supprime la bordure par défaut du bouton */
+  padding: 10px 20px; /* Ajoute un espace intérieur au bouton */
+  border-radius: 16px; /* Ajoute un rayon de bordure pour des coins arrondis */
+  width: 100%;
+
+}
+
+button:disabled {
+  margin-top: 12px; /* Ajoute un espace au-dessus du bouton */
+  background-color: #fcf7f7; /* Change la couleur de fond lorsque le bouton est désactivé */
+  color: #faf6f6; /* Change la couleur du texte lorsque le bouton est désactivé */
+  cursor: not-allowed; /* Change l'indicateur de curseur lorsque le bouton est désactivé */
+  border-radius: 16px; /* Ajoute un rayon de bordure pour des coins arrondis */
+  background-color: #14ad12; /* Couleur de fond vert */
+  width: 100%;
+  
+}
+
+label {
+  text-align: left;
+  width: 100%; /* Occupera toute la largeur disponible */
+}
+
+
+
+/* Styles pour les champs d'entrée */
+input {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.mdpOublie{
+  margin-top: 12px;
+}
+
+.p{
+  margin-top: 10px;
+}
+  
+h1{
+  
+}

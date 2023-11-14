@@ -1,0 +1,41 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [ 
+    {
+      "name": "typicode"
+    }
+  ],
+  "trajets": 
+  {
+    "id": 1,
+    "departDateTime": "2023-11-15T10:00:00",
+    "seats": 4,
+    "smallBags": 2,
+    "bigBags": 2,
+    "silence": false,
+    "musiqueGenre": "Pop",
+    "carBrand": "Peugeot",
+    "carPicture": "public/images/voiture-sport.jpg",
+    "creationDate": "2023-11-01",
+    "modificationDate": "2023-11-01"
+  }
+
+
+  
+}
+
+
+
